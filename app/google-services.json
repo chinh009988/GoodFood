@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "428934762529",
+    "firebase_url": "https://duan-mob.firebaseio.com",
+    "project_id": "duan-mob",
+    "storage_bucket": "duan-mob.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428934762529:android:d0779b3c953236e7219360",
+        "android_client_info": {
+          "package_name": "vn.poly.goodfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "428934762529-gi6fnavhl50jr8tlgjj9bo9qrp56nt63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw4xDudLA5dEmNJ-CPTUDAGPJ2OF45m8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "428934762529-gi6fnavhl50jr8tlgjj9bo9qrp56nt63.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

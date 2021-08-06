@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMonChinh">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="4dp">
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FCE4E4"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/back_monChinh"
+            android:layout_width="15dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_ios_24"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/image_searchAnVat"
+            android:layout_width="10dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="7dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/icon_search_menu" />
+
+        <AutoCompleteTextView
+            android:layout_marginRight="9dp"
+            android:textSize="17dp"
+            android:layout_marginTop="5dp"
+            android:hint="tìm kiếm"
+            android:id="@+id/search_monChinh"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/image_shopMonChinh"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_shopping_cart_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+    </LinearLayout>
+
+        <ListView
+            android:id="@+id/list_danhSachmonChinh"
+            android:layout_width="match_parent"
+            android:layout_height="675dp"
+            android:layout_marginTop="51dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="64dp" />
+        <ImageView
+            android:background="#FCE4E4"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="14dp"
+            android:id="@+id/img_loadMonChinh"
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            app:srcCompat="@drawable/load_list" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
